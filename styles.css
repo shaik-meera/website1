@@ -1,0 +1,234 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.maindiv{
+    display: flex;
+    background-color: rgba(123, 203, 232, 0.3);
+    overflow-x: hidden;
+    top: 0px;
+}
+.a1:hover{
+    color: orangered;
+}
+.div4:hover{
+    background-color: pink;
+    text-decoration: line-through ;
+    padding: 20px;
+}
+.div2:hover{
+    background-color: pink;
+    box-shadow: 2px 2px 2px solid #9087;
+}
+.div3:hover{
+    filter: blur(1px);
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 800px;
+    padding: 20px;
+    background-color: white;
+    margin: 0px;
+    position: fixed;
+
+}
+aside a{
+    padding: 20px;
+    color: black;
+    font-weight: bolder;
+
+}
+.button{
+    background-color: rgb(186, 57, 34);
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.prof1:hover{
+     outline: 2px solid black;
+}
+.main{
+    width: 100%;
+}
+header{
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    width: 81%;
+    height: 80px;
+    margin-left: 18%;
+    justify-content: space-between;
+    align-items: center;
+padding-left: 20px;
+}
+.div1{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+.subdiv1{
+ width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 70px;
+    margin-left: 18%;
+}
+.div2{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.card2{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+li{
+    text-align: center;
+}
+.div3{
+    width: 300px;
+    height: 200px;   
+    background-color: rgb(5, 5, 62);
+    border-radius: 15px;
+
+}
+#div1{
+    color: white;
+    padding:0px 30px;
+}
+.div4{
+    width: 300px;
+    height: 200px;
+    padding: 15px 20px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+}
+.div5{
+    
+    width: 1200px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+    margin-left: 18%;
+
+}
+.div6{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+}
+.div6 div{
+    width: 600px;
+}
+
+
+table{
+    width: 1150px;
+    border-collapse: collapse;
+    
+}
+th{
+    top:68px;
+    background-color: rgb(0, 183, 255);
+    position: sticky;
+    width: 1200px;
+}
+th,td{
+    padding: 15px 80px;
+    text-align: center;
+}
+td button{
+    background-color: rgb(0, 145, 255);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+.section1{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 600px;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.li1{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.child{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+margin: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.attend,.assign{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    border: 15px solid rgb(84, 84, 130);
+    border-left-color: rgb(243, 226, 226);
+    text-align: center;
+    padding: 10px;
+}
+
+.attend h2,.assign h2{
+    color: green;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    height: 100px;
+    width: 90px;
+
+}
+.div1:hover .dropdown{
+    display: block;
+}
+.iframe1{
+    margin-left: 270px;
+}
